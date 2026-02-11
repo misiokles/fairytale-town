@@ -1,29 +1,28 @@
-import jstyleson
-import glob
-import os
+#!/usr/bin/env python3
+
+import re
 import sys
+from pathlib import Path
+from pprint import pprint
 
-from ignore_json import ignore
+# VCMI supports JSON with comments, but not JSON5
+import jstyleson 
 
-error = False
+validation_failed = False
 
-for filename in glob.glob(os.path.join('.', '*.json')):
-    if filename not in ignore:
-        print(f"Opening: {filename}")
-        
-        with open(filename, "r") as file:
-            filecontent = file.read()
+for path in sorted(Path(".").glob("**/*.json"), key=lambda path: str(path).lower()):
+    # because path is an object and not a string
+    path_str = str(path)
+    if path_str.startswith("."):
+        continue
 
-        try:
-            jstyleson.loads(filecontent)
-            print(f"✅ JSON valid")
-        except Exception as err:
-            error = True
-            print(f"❌ JSON invalid in {filename}:")
-            print(str(err))
+    try:
+        with open(path_str, "r") as file:
+            jstyleson.load(file)
+        print(f"✅ {path_str}")
+    except Exception as exc:
+        print(f"❌ {path_str}: {exc}")
+        validation_failed = True
 
-if error:
-    sys.exit(os.EX_SOFTWARE)
-else:
-    print("Everything is ok!")
-    sys.exit(os.EX_OK)
+if validation_failed:
+    sys.exit(1)
