@@ -1,39 +1,53 @@
 {
-	"ftOla" :
-	{
+	"ftOla" : {
 		"class" : "keeper",
 		"female" : false,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Ola",
 			"biography" : "One of the finest jewelers in the land, Ola is said to be able to cut a perfect gem from even the most flawed stone.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases kingdom's income by 1 gem per day",
 				"tooltip" : "{Gems}\r\n\r\n+1 Gem each day",
 				"name" : "Gems"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "fairytale/heroes/ola/un32crys.bmp",
 			"specialtyLarge" : "fairytale/heroes/ola/un44crys.bmp",
 			"large" : "fairytale/heroes/ola/hpl299.bmp",
 			"small" : "fairytale/heroes/ola/hps299.bmp"
 		},
-		"army" :
-		[
-			{ "creature" : "ftlv1", "min" : 9, "max" : 15 },
-			{ "creature" : "ftlv2", "min" :  6, "max" :  9 },
-			{ "creature" : "ftlv3", "min" :  3, "max" :  6 }
+		"army" : [
+			{
+				"creature" : "ftlv1",
+				"min" : 9,
+				"max" : 15
+			},
+			{
+				"creature" : "ftlv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "ftlv3",
+				"min" : 3,
+				"max" : 6
+			}
 		],
-		"spellbook": [ "magicArrow" ],
-		"skills":
-		[
-			{ "skill" : "wisdom", "level": "basic" },
-			{ "skill" : "intelligence", "level": "basic" }
+		"spellbook" : [
+			"magicArrow"
+		],
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "intelligence",
+				"level" : "basic"
+			}
 		],
 		"specialty" : {
 			"bonuses" : {

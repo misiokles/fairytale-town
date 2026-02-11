@@ -1,13 +1,23 @@
 {
-	"core:abandonedMine": {
-		"types": {
-			"mine": {
-				"templates": {
+	"core:abandonedMine" : {
+		"types" : {
+			"mine" : {
+				"templates" : {
 					"bloLanAbaMin" : {
 						"animation" : "bloomingLands/objects/abandonedMine/bloLanAbaMin",
-						"mask" : [ "VVVV", "VBBB", "VBAB"],
-						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"allowedTerrains" : ["bloomingLands"]
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					}
 				}
 			}

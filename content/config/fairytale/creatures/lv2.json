@@ -1,76 +1,63 @@
 {
-	"ftlv2":
-	{
-		"name" :
-		{
+	"ftlv2" : {
+		"name" : {
 			"plural" : "Flower Dragons",
 			"singular" : "Flower Dragon"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 18,
 			"min" : 10
 		},
 		"faction" : "fairytale",
 		"aiValue" : 180,
 		"attack" : 6,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 130
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 4,
 			"min" : 2
 		},
 		"defense" : 6,
 		"fightValue" : 190,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "fairytale/battle/creatures/lv2.def",
 			"map" : "fairytale/map/creatures/lv2.def",
 			"iconSmall" : "fairytale/iconsSmall/creatures/lv2.bmp",
 			"iconLarge" : "fairytale/iconsBig/creatures/lv2.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1.25,
 				"attack" : 1,
 				"idle" : 10
 			}
-        },
+		},
 		"growth" : 9,
 		"hitPoints" : 16,
 		"level" : 2,
-		"upgrades":
-		[
+		"upgrades" : [
 			"ftlv2up"
 		],
-		"sound" :
-		{
-			"attack": "FAERATTK.wav",
-			"defend": "FAERDFND.wav",
-			"killed": "FAERKILL.wav",
-			"move": "FAERMOVE.wav",
-			"wince": "FAERWNCE.wav"
+		"sound" : {
+			"attack" : "FAERATTK.wav",
+			"defend" : "FAERDFND.wav",
+			"killed" : "FAERKILL.wav",
+			"move" : "FAERMOVE.wav",
+			"wince" : "FAERWNCE.wav"
 		},
 		"speed" : 6,
-		"abilities" :
-		{
-			"canFly" : 
-			{
+		"abilities" : {
+			"canFly" : {
 				"type" : "FLYING"
 			},
-			"dragon" :
-			{
+			"dragon" : {
 				"type" : "DRAGON_NATURE"
-			},	
-			"suck" :
-			{
+			},
+			"suck" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.forgetfulness",
 				"val" : 20
-			}	
+			}
 		}
 	}
 }

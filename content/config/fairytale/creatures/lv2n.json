@@ -1,49 +1,40 @@
 {
-	"ftlv2n":
-	{
-		"name" :
-		{
+	"ftlv2n" : {
+		"name" : {
 			"plural" : "Fairy Enchantresses",
 			"singular" : "Fairy Enchantress"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 30,
 			"min" : 16
 		},
 		"faction" : "fairytale",
 		"aiValue" : 126,
 		"attack" : 7,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 130
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 5,
 			"min" : 1
 		},
 		"defense" : 4,
 		"fightValue" : 115,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "fairytale/battle/creatures/fench1.def",
 			"map" : "fairytale/map/creatures/mapfench1.def",
 			"iconSmall" : "fairytale/iconsSmall/creatures/fench1.bmp",
 			"iconLarge" : "fairytale/iconsBig/creatures/fench1.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "fairytale/battle/creatures/projectile/zap1.DEF",
 				"attackClimaxFrame" : 7,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 38,
 					"upperY" : -65,
 					"middleX" : 36,
@@ -51,32 +42,43 @@
 					"lowerX" : 21,
 					"lowerY" : -50
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
 		"growth" : 7,
 		"hitPoints" : 16,
 		"level" : 2,
-		"upgrades": [ "ftlv2nup" ],
+		"upgrades" : [
+			"ftlv2nup"
+		],
 		"shots" : 9,
-		"sound" :
-		{
-			"attack": "PIXIATTK.wav",
-			"defend": "PIXIDFND.wav",
-			"killed": "PIXIKILL.wav",
-			"move": "PIXIMOVE.wav",
-			"wince": "PIXIWNCE.wav",
+		"sound" : {
+			"attack" : "PIXIATTK.wav",
+			"defend" : "PIXIDFND.wav",
+			"killed" : "PIXIKILL.wav",
+			"move" : "PIXIMOVE.wav",
+			"wince" : "PIXIWNCE.wav",
 			"shoot" : "PIXIATTK.wav"
 		},
 		"speed" : 7,
-		"abilities" :
-		{
-			"canShoot" :
-			{
+		"abilities" : {
+			"canShoot" : {
 				"type" : "SHOOTER"
 			},
-			"noMeleePenalty" :
-			{
+			"noMeleePenalty" : {
 				"type" : "NO_MELEE_PENALTY"
 			}
 		}

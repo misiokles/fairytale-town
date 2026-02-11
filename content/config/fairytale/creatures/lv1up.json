@@ -1,48 +1,40 @@
 {
-	"ftlv1up":
-	{
-		"name" :
-		{
+	"ftlv1up" : {
+		"name" : {
 			"plural" : "Warlike Halflings",
 			"singular" : "Warlike Halfling"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 30,
 			"min" : 20
 		},
 		"faction" : "fairytale",
 		"aiValue" : 95,
 		"attack" : 5,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 60
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 3,
 			"min" : 2
 		},
 		"defense" : 2,
 		"fightValue" : 97,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "fairytale/battle/creatures/lv1up.def",
 			"map" : "fairytale/map/creatures/lv1up.def",
 			"iconSmall" : "fairytale/iconsSmall/creatures/lv1up.bmp",
 			"iconLarge" : "fairytale/iconsBig/creatures/lv1up.bmp",
-			"timeBetweenFidgets": 1,
-            "animationTime": {
-            "walk": 1,
-            "attack": 1,
-            "idle": 10
-        },
-            "missile" :
-			{
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" : {
 				"projectile" : "PHALF.DEF",
 				"attackClimaxFrame" : 12,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 38,
 					"upperY" : -65,
 					"middleX" : 36,
@@ -50,41 +42,49 @@
 					"lowerX" : 21,
 					"lowerY" : -50
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
-        },
-		"growth": 15,
-        "hitPoints": 4,
-        "level": 1,
-     	"horde" : 6,
-        "shots" : 24,
-		"sound" :
-		{
-			"attack": "HALFATTK.wav",
-			"defend": "HALFDFND.wav",
-			"killed": "HALFKILL.wav",
-			"move": "HALFMOVE.wav",
-			"shoot": "HALFSHOT.wav",
-			"wince": "HALFWNCE.wav"
-        },
+		},
+		"growth" : 15,
+		"hitPoints" : 4,
+		"level" : 1,
+		"horde" : 6,
+		"shots" : 24,
+		"sound" : {
+			"attack" : "HALFATTK.wav",
+			"defend" : "HALFDFND.wav",
+			"killed" : "HALFKILL.wav",
+			"move" : "HALFMOVE.wav",
+			"shoot" : "HALFSHOT.wav",
+			"wince" : "HALFWNCE.wav"
+		},
 		"speed" : 6,
-		"abilities": 
-		{
-			"shooter" :
-			{
+		"abilities" : {
+			"shooter" : {
 				"type" : "SHOOTER"
 			},
-			"noPenalty" :
-			{
+			"noPenalty" : {
 				"type" : "NO_MELEE_PENALTY"
 			},
-			"lucky" :
-			{
+			"lucky" : {
 				"type" : "LUCK",
 				"val" : 1,
 				"valueType" : "INDEPENDENT_MAX",
 				"description" : "PLACEHOLDER"
 			}
-		}				
+		}
 	}
 }

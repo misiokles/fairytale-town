@@ -1,42 +1,72 @@
 {
-	"core:mushrooms": {
+	"core:mushrooms" : {
 		"types" : {
 			"object" : {
 				"templates" : {
-					"bloLanMus00" : { 
-					    "animation" : "bloomingLands/decorations/mushrooms/bloLanMus00", 
-					    "mask" : ["VVV","VBB"], 
-					    "allowedTerrains":["bloomingLands"] 
+					"bloLanMus00" : {
+						"animation" : "bloomingLands/decorations/mushrooms/bloLanMus00",
+						"mask" : [
+							"VVV",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					},
-					"bloLanMus01" : { 
-					    "animation" : "bloomingLands/decorations/mushrooms/bloLanMus01", 
-					    "mask" : ["VB"], 
-					    "allowedTerrains":["bloomingLands"] 
+					"bloLanMus01" : {
+						"animation" : "bloomingLands/decorations/mushrooms/bloLanMus01",
+						"mask" : [
+							"VB"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					},
-					"bloLanMus02" : { 
-					    "animation" : "bloomingLands/decorations/mushrooms/bloLanMus02", 
-					    "mask" : ["VB"], 
-					    "allowedTerrains":["bloomingLands"] 
+					"bloLanMus02" : {
+						"animation" : "bloomingLands/decorations/mushrooms/bloLanMus02",
+						"mask" : [
+							"VB"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					},
-					"bloLanMus03" : { 
-					    "animation" : "bloomingLands/decorations/mushrooms/bloLanMus03", 
-					    "mask" : ["VB"], 
-					    "allowedTerrains":["bloomingLands"] 
+					"bloLanMus03" : {
+						"animation" : "bloomingLands/decorations/mushrooms/bloLanMus03",
+						"mask" : [
+							"VB"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					},
-					"bloLanMus04" : { 
-					    "animation" : "bloomingLands/decorations/mushrooms/bloLanMus04", 
-					    "mask" : ["VB"], 
-					    "allowedTerrains":["bloomingLands"] 
+					"bloLanMus04" : {
+						"animation" : "bloomingLands/decorations/mushrooms/bloLanMus04",
+						"mask" : [
+							"VB"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					},
-					"bloLanMus05" : { 
-					    "animation" : "bloomingLands/decorations/mushrooms/bloLanMus05", 
-					    "mask" : ["VB"], 
-					    "allowedTerrains":["bloomingLands"] 
+					"bloLanMus05" : {
+						"animation" : "bloomingLands/decorations/mushrooms/bloLanMus05",
+						"mask" : [
+							"VB"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					},
-					"bloLanMus06" : { 
-					    "animation" : "bloomingLands/decorations/mushrooms/bloLanMus06", 
-					    "mask" : ["VVV","VBB"], 
-					    "allowedTerrains":["bloomingLands"] 
+					"bloLanMus06" : {
+						"animation" : "bloomingLands/decorations/mushrooms/bloLanMus06",
+						"mask" : [
+							"VVV",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					}
 				}
 			}

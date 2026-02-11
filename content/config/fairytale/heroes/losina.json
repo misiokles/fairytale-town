@@ -1,39 +1,53 @@
 {
-	"ftLosina" :
-	{
+	"ftLosina" : {
 		"class" : "keeper",
 		"female" : false,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Losina",
 			"biography" : "One of the finest field medics in the kingdom, Losina believes in caring for the health of her troops. She is said to have the best bedside manner in the all the land",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Eagle Eye skill.",
 				"tooltip" : "{Eagle Eye}\r\n\r\nReceives a 5% per level bonus to Eagle Eye skill.",
 				"name" : "Eagle Eye"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "fairytale/heroes/losina/un32firs.bmp",
 			"specialtyLarge" : "fairytale/heroes/losina/un44firs.bmp",
 			"large" : "fairytale/heroes/losina/hpl295.bmp",
-			"small" : "fairytale/heroes/losina/hps295.bmp",
+			"small" : "fairytale/heroes/losina/hps295.bmp"
 		},
-        "army" :
-		[
-			{ "creature" : "ftlv1", "min" : 9, "max" : 15 },
-			{ "creature" : "ftlv2", "min" :  6, "max" :  9 },
-			{ "creature" : "ftlv3", "min" :  3, "max" :  6 }
+		"army" : [
+			{
+				"creature" : "ftlv1",
+				"min" : 9,
+				"max" : 15
+			},
+			{
+				"creature" : "ftlv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "ftlv3",
+				"min" : 3,
+				"max" : 6
+			}
 		],
-		"spellbook": [ "dispel" ],
-		"skills":
-		[
-			{ "skill" : "wisdom", "level": "basic" },
-			{ "skill" : "eagleEye", "level": "basic" }
+		"spellbook" : [
+			"dispel"
+		],
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "eagleEye",
+				"level" : "basic"
+			}
 		],
 		"specialty" : {
 			"bonuses" : {

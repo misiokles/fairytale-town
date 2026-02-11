@@ -1,40 +1,78 @@
 {
-   "core:mountain" : {
+	"core:mountain" : {
 		"types" : {
 			"object" : {
 				"templates" : {
 					"bloominlandMou01" : {
 						"animation" : "bloomingLands/decorations/mountains/bloominlandMou01",
-						"mask" : [ "VVVVVV","VVBBBB","VBBBBB","VBBBVV" ], 
-						"allowedTerrains" : ["bloomingLands" ]
+						"mask" : [
+							"VVVVVV",
+							"VVBBBB",
+							"VBBBBB",
+							"VBBBVV"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					},
 					"bloominlandMou02" : {
 						"animation" : "bloomingLands/decorations/mountains/bloominlandMou02",
-						"mask" : [ "VVVVVV","VBBBBV","VBBBBB","VVVBBB" ], 
-						"allowedTerrains" : ["bloomingLands" ]
+						"mask" : [
+							"VVVVVV",
+							"VBBBBV",
+							"VBBBBB",
+							"VVVBBB"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					},
 					"bloominlandMou03" : {
 						"animation" : "bloomingLands/decorations/mountains/bloominlandMou03",
-						"mask" : [ "VVVV", "VBBB","VBBV" ], 
-						"allowedTerrains" : ["bloomingLands" ]
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					},
 					"bloominlandMou04" : {
 						"animation" : "bloomingLands/decorations/mountains/bloominlandMou04",
-						"mask" : [ "VVVV","VBBB","VVBB" ],
-						"allowedTerrains" : ["bloomingLands" ]
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					},
 					"bloominlandMou05" : {
 						"animation" : "bloomingLands/decorations/mountains/bloominlandMou05",
-						"mask" : [ "VVVVV", "VVBBV","VBBVV" ],
-						"allowedTerrains" : ["bloomingLands" ]
+						"mask" : [
+							"VVVVV",
+							"VVBBV",
+							"VBBVV"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					},
 					"bloominlandMou06" : {
 						"animation" : "bloomingLands/decorations/mountains/bloominlandMou06",
-						"mask" : [ "VVVVV", "VBBVV","VVBBV" ],
-						"allowedTerrains" : ["bloomingLands" ]
-					}				
+						"mask" : [
+							"VVVVV",
+							"VBBVV",
+							"VVBBV"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
+					}
 				}
 			}
-		}	
-	}	
+		}
+	}
 }

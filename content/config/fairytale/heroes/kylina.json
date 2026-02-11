@@ -1,41 +1,53 @@
 {
-	"ftKylina" :
-	{
+	"ftKylina" : {
 		"class" : "diviner",
 		"female" : true,
-		
-		"texts" :
-		{
+
+		"texts" : {
 			"name" : "Kylina",
 			"biography" : "Kylina came across a nest of Pegasus just as the mother was killed by a Chaos Hydra. Killing the beast, she then took the babies into her care and raised them. She did so well she earned the loyalty of the entire Forest dragon and Swamp dragon kingdom.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of Pegasus or Unicorns or each level attained after 4th level.",
 				"tooltip" : "{Pegasus}\r\n\r\nIncreases the Attack and Defense skills of Pegasus or Unicorns or each level attained after 4th level.",
 				"name" : "Pegasus"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "fairytale/heroes/kylina/un32drud.bmp",
 			"specialtyLarge" : "fairytale/heroes/kylina/un44drud.bmp",
 			"large" : "fairytale/heroes/kylina/hpl284.bmp",
 			"small" : "fairytale/heroes/kylina/hps284.bmp"
 		},
-        "army" :
-		[
-			{ "creature" : "ftlv1", "min" : 9, "max" : 15 },
-			{ "creature" : "ftlv2", "min" :  6, "max" :  9 },
-			{ "creature" : "ftlv3", "min" :  3, "max" :  6 }
+		"army" : [
+			{
+				"creature" : "ftlv1",
+				"min" : 9,
+				"max" : 15
+			},
+			{
+				"creature" : "ftlv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "ftlv3",
+				"min" : 3,
+				"max" : 6
+			}
 		],
-		"skills":
-		[
-			{ "skill" : "armorer", "level": "basic" },
-			{ "skill" : "diplomacy", "level": "basic" }
+		"skills" : [
+			{
+				"skill" : "armorer",
+				"level" : "basic"
+			},
+			{
+				"skill" : "diplomacy",
+				"level" : "basic"
+			}
 		],
 		"specialty" : {
 			"creature" : "ftlv4"
-		}		
+		}
 	}
 }

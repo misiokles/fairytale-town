@@ -5,9 +5,19 @@
 				"templates" : {
 					"blodLanHilFor" : {
 						"animation" : "bloomingLands/objects/hillfort/blodLanHilFor",
-						"visitableFrom" : ["---", "-+-", "+++"],
-						"mask" : ["VVV", "VBB", "VBA"],
-						"allowedTerrains" : ["bloomingLands"]
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VBA"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					}
 				}
 			}

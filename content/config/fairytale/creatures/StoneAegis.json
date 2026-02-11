@@ -1,36 +1,30 @@
 {
-	"ftStoneAegis":
-	{
-		"name" :
-		{
+	"ftStoneAegis" : {
+		"name" : {
 			"plural" : "Stone Aegis",
 			"singular" : "Stone Aegis"
 		},
 		"faction" : "fairytale",
-		"level": 0,
+		"level" : 0,
 		"aiValue" : 2500,
 		"special" : true,
 		"attack" : 10,
-             "cost": 
-            {
-              "gold": 2500
-            },
-		"damage" :
-		{
+		"cost" : {
+			"gold" : 2500
+		},
+		"damage" : {
 			"max" : 0,
 			"min" : 0
-		},			
-		
+		},
+
 		"defense" : 10,
 		"fightValue" : 2500,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "fairytale/battle/creatures/spinner.def",
 			"iconSmall" : "fairytale/iconsSmall/creatures/spinner.bmp",
 			"iconLarge" : "fairytale/iconsBig/creatures/spinner.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 0.15,
 				"attack" : 1,
 				"idle" : 40
@@ -40,30 +34,22 @@
 		"growth" : 0,
 		"hitPoints" : 150,
 		"speed" : 0,
-		"sound" :
-		{
-		},		
-		"abilities" :
-		{
-			"spellResistAura" :
-			{
+		"sound" : {},
+		"abilities" : {
+			"spellResistAura" : {
 				"type" : "SPELL_RESISTANCE_AURA",
 				"val" : 10
 			},
-		      "noRetaliation" :
-			{
+			"noRetaliation" : {
 				"type" : "NO_RETALIATION",
-				 "val" : 0,
+				"val" : 0
 			},
-			"warmachine" :
-			{
+			"warmachine" : {
 				"type" : "SIEGE_WEAPON"
 			},
-                     "Healer":
-			{
+			"Healer" : {
 				"type" : "HEALER"
 			}
 		}
 	}
 }
-

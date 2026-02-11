@@ -1,8 +1,6 @@
 {
-	"ftCommander":
-	{
-		"name" :
-		{
+	"ftCommander" : {
+		"name" : {
 			"plural" : "Fairy Commanders",
 			"singular" : "Fairy Commander"
 		},
@@ -10,39 +8,33 @@
 		"aiValue" : 522,
 		"attack" : 5,
 		"special" : true,
-		"hasDoubleWeek": false,
+		"hasDoubleWeek" : false,
 		"doubleWide" : false,
 		"shots" : 24,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 140
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 12,
 			"min" : 6
 		},
 		"defense" : 5,
 		"fightValue" : 501,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "fairytale/battle/creatures/fcommander.def",
 			"map" : "fairytale/map/creatures/mapfcommander.def",
 			"iconSmall" : "fairytale/iconsSmall/creatures/fcommander.bmp",
 			"iconLarge" : "fairytale/iconsBig/creatures/fcommander.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.30,
+			"animationTime" : {
+				"walk" : 1.3,
 				"attack" : 1,
 				"idle" : 10
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "CPRZEAX.DEF",
 				"attackClimaxFrame" : 7,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 38,
 					"upperY" : -65,
 					"middleX" : 36,
@@ -50,20 +42,32 @@
 					"lowerX" : 21,
 					"lowerY" : -50
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
-		},	
+		},
 		"growth" : 1,
 		"hitPoints" : 40,
 		"level" : 0,
-		"sound" :
-		{
-			"attack": "PIXIATTK.wav",
-			"defend": "PIXIDFND.wav",
-			"killed": "PIXIKILL.wav",
-			"move": "PIXIMOVE.wav",
-			"wince": "PIXIWNCE.wav"
- 		},
+		"sound" : {
+			"attack" : "PIXIATTK.wav",
+			"defend" : "PIXIDFND.wav",
+			"killed" : "PIXIKILL.wav",
+			"move" : "PIXIMOVE.wav",
+			"wince" : "PIXIWNCE.wav"
+		},
 		"speed" : 4,
 		"abilities" : {
 			"magicResistance" : {
@@ -87,11 +91,10 @@
 				"type" : "SPELLCASTER",
 				"subtype" : "cure",
 				"val" : 2
-		    },
-			"shooter" :
-			{
+			},
+			"shooter" : {
 				"type" : "SHOOTER"
-     		}
+			}
 		}
 	}
 }

@@ -4,74 +4,126 @@
 //
 // Their properties:
 // * "allowedTerrains" vector of terrain types (TT format) where obstacle is appropriate
-// * "specialBattlefields" vector of battlefield images (BI format) where obstacle is appropriate. If there is a special battlefield image, then only this list is checked. Otherwise it's ignored. 
+// * "specialBattlefields" vector of battlefield images (BI format) where obstacle is appropriate. If there is a special battlefield image, then only this list is checked. Otherwise it's ignored.
 // * "blockedTiles": for absolute bloomingLands/obstacles contains absolute coordinates. For usual bloomingLands/obstacles contains offsets relative to the obstacle position (that is bottom left corner). If obstacle is placed in an odd row (counting from 0) and the blocked tile is in an even row, position will be shifted one tile to the left. Thanks to that ie. -16 is always top-right hex, no matter where the obstale will get placed.
 // * "width" for usual bloomingLands/obstacles it's count of tiles that must be free to the right for obstacle to be placed. For absolute bloomingLands/obstacles, it's x offset for the graphics.
 // * "height" for usual bloomingLands/obstacles it's count of tiles that must be free to the top for obstacle to be placed. For absolute bloomingLands/obstacles, it's y offset for the graphics.
 // * "animation" is name of the graphics. It's def file for usual bloomingLands/obstacles and bitmap for the absolute ones.
 
 {
-	"core:19":
-	{
-		"allowedTerrains" : ["bloomingLands"],
+	"core:19" : {
+		"allowedTerrains" : [
+			"bloomingLands"
+		],
 		"width" : 2,
 		"height" : 1,
-		"blockedTiles" :  [0, 1],
+		"blockedTiles" : [
+			0,
+			1
+		],
 		"animation" : "ObGLg01.def",
 		"absolute" : false
 	},
-	"core:20":
-	{
-		"allowedTerrains" : ["bloomingLands"],
+	"core:20" : {
+		"allowedTerrains" : [
+			"bloomingLands"
+		],
 		"width" : 2,
 		"height" : 2,
-		"blockedTiles" :  [0, 1],
+		"blockedTiles" : [
+			0,
+			1
+		],
 		"animation" : "ObGRk01.def",
 		"foreground" : true,
 		"absolute" : false
 	},
-	"core:21":
-	{
-		"allowedTerrains" : ["bloomingLands"],
+	"core:21" : {
+		"allowedTerrains" : [
+			"bloomingLands"
+		],
 		"width" : 1,
 		"height" : 1,
-		"blockedTiles" :  [0],
+		"blockedTiles" : [
+			0
+		],
 		"animation" : "ObGSt01.def",
 		"absolute" : false
 	},
-	"core:22":
-	{
-		"allowedTerrains" : ["bloomingLands"],
+	"core:22" : {
+		"allowedTerrains" : [
+			"bloomingLands"
+		],
 		"width" : 6,
 		"height" : 2,
-		"blockedTiles" :  [1, 2, 3, 4, -13, -14, -15, -16],
+		"blockedTiles" : [
+			1,
+			2,
+			3,
+			4,
+			-13,
+			-14,
+			-15,
+			-16
+		],
 		"animation" : "ObGrS01.def",
 		"absolute" : false
 	},
-	"core:23":
-	{
-		"allowedTerrains" : ["bloomingLands"],
+	"core:23" : {
+		"allowedTerrains" : [
+			"bloomingLands"
+		],
 		"width" : 7,
 		"height" : 1,
-		"blockedTiles" :  [1, 2],
+		"blockedTiles" : [
+			1,
+			2
+		],
 		"animation" : "OBGrS02.def",
 		"absolute" : false
 	},
-	"core:105":
-	{
-		"allowedTerrains" : ["bloomingLands"],
+	"core:105" : {
+		"allowedTerrains" : [
+			"bloomingLands"
+		],
 		"width" : 173,
 		"height" : 221,
-		"blockedTiles" :  [55, 56, 57, 58, 75, 76, 77, 95, 112, 113, 131],
+		"blockedTiles" : [
+			55,
+			56,
+			57,
+			58,
+			75,
+			76,
+			77,
+			95,
+			112,
+			113,
+			131
+		],
 		"animation" : "ObGrL01.pcx",
 		"absolute" : true
 	},
-	"core:106":
-	{
-		"allowedTerrains" : ["bloomingLands"],
+	"core:106" : {
+		"allowedTerrains" : [
+			"bloomingLands"
+		],
 		"width" : 180,
 		"height" : 264,
-		"blockedTiles" :  [81, 91, 92, 93, 94, 95, 96, 97, 98, 106, 107, 123],
+		"blockedTiles" : [
+			81,
+			91,
+			92,
+			93,
+			94,
+			95,
+			96,
+			97,
+			98,
+			106,
+			107,
+			123
+		],
 		"animation" : "ObGrL02.pcx",
 		"absolute" : true
 	}

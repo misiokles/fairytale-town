@@ -1,38 +1,52 @@
 {
-	"ftUliri" :
-	{
+	"ftUliri" : {
 		"class" : "keeper",
 		"female" : false,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Uliri",
 			"biography" : "Uliri is said to be one of the toughest generals in the fairytale kingdom. He constantly subjects his troops to the harshest training, toughening them up to be able to take greater and greater amounts of punishment",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Casts Haste with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
 				"tooltip" : "{Haste}\r\n\r\nCasts Haste with increased effect.",
 				"name" : "Haste"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "fairytale/heroes/uliri/Un32Defe.bmp",
 			"specialtyLarge" : "fairytale/heroes/uliri/Un44Defe.bmp",
 			"large" : "fairytale/heroes/uliri/hpl287.bmp",
 			"small" : "fairytale/heroes/uliri/hps287.bmp"
 		},
-       "army" :
-		[
-			{ "creature" : "ftlv1", "min" : 9, "max" : 15 },
-			{ "creature" : "ftlv2", "min" :  6, "max" :  9 },
-			{ "creature" : "ftlv3", "min" :  3, "max" :  6 }
+		"army" : [
+			{
+				"creature" : "ftlv1",
+				"min" : 9,
+				"max" : 15
+			},
+			{
+				"creature" : "ftlv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "ftlv3",
+				"min" : 3,
+				"max" : 6
+			}
 		],
-		"spellbook": [ "haste" ],
-		"skills":
-		[
-			{ "skill" : "wisdom", "level": "basic" },
-			{ "skill" : "diplomacy", "level": "basic" }
+		"spellbook" : [
+			"haste"
+		],
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "diplomacy",
+				"level" : "basic"
+			}
 		],
 		"specialty" : {
 			"bonuses" : {
@@ -40,9 +54,8 @@
 					"addInfo" : 0,
 					"subtype" : "spell.haste",
 					"type" : "SPECIAL_PECULIAR_ENCHANT"
-					}
+				}
 			}
 		}
 	}
 }
-

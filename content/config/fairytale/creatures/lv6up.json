@@ -1,13 +1,10 @@
 {
-	"ftlv6up":
-	{
-		"name" :
-		{
+	"ftlv6up" : {
+		"name" : {
 			"plural" : "Sharkans",
 			"singular" : "Sharkan"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 10,
 			"min" : 5
 		},
@@ -15,26 +12,22 @@
 		"aiValue" : 555,
 		"doubleWide" : true,
 		"attack" : 15,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 1000
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 20,
 			"min" : 14
 		},
 		"defense" : 15,
 		"fightValue" : 516,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "fairytale/battle/creatures/lv6up.def",
 			"map" : "fairytale/map/creatures/lv6up.def",
 			"iconSmall" : "fairytale/iconsSmall/creatures/lv6up.bmp",
 			"iconLarge" : "fairytale/iconsBig/creatures/lv6up.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
@@ -43,31 +36,29 @@
 		"growth" : 4,
 		"hitPoints" : 80,
 		"level" : 6,
-		"sound" :
-		{
-			"attack": "WYVNATTK.wav",
-			"defend": "WYVNDFND.wav",
-			"killed": "WYVNKILL.wav",
-			"move": "WYVNMOVE.wav",
-			"wince": "WYVNWNCE.wav"
- 		},
+		"sound" : {
+			"attack" : "WYVNATTK.wav",
+			"defend" : "WYVNDFND.wav",
+			"killed" : "WYVNKILL.wav",
+			"move" : "WYVNMOVE.wav",
+			"wince" : "WYVNWNCE.wav"
+		},
 		"speed" : 9,
-		"abilities" :
-		{
-			"canFly" : 
-			{
+		"abilities" : {
+			"canFly" : {
 				"type" : "FLYING"
 			},
-			"dragon" :
-			{
+			"dragon" : {
 				"type" : "DRAGON_NATURE"
 			},
-		    "petrification" :
-			{
+			"petrification" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.stoneGaze",
 				"val" : 35,
-				"addInfo" : [0,2]
+				"addInfo" : [
+					0,
+					2
+				]
 			}
 		}
 	}

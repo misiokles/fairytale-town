@@ -1,6 +1,5 @@
 {
-	"fairytale:fairytale" :
-	{
-		"nativeTerrain": "bloomingLands"
+	"fairytale:fairytale" : {
+		"nativeTerrain" : "bloomingLands"
 	}
 }

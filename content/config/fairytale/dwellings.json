@@ -3,89 +3,148 @@
 		"types" : {
 			"ftHut" : {
 				"name" : "Hut",
-				"creatures" : [[ "ftlv1" ]],
+				"creatures" : [
+					[
+						"ftlv1"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "fairytale/map/dwellings/dwelling-1.def",
-						"mask" : [ "VBB", "VAB" ]
+						"mask" : [
+							"VBB",
+							"VAB"
+						]
 					}
 				}
 			},
 			"ftDragonHatchery" : {
 				"name" : "Dragons Hatchery",
-				"creatures" : [[ "ftlv2" ]],
+				"creatures" : [
+					[
+						"ftlv2"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "fairytale/map/dwellings/dwelling-2.def",
-						"mask" : [ "VBB", "VAB" ]
+						"mask" : [
+							"VBB",
+							"VAB"
+						]
 					}
 				}
 			},
 			"ftRiverLodge" : {
 				"name" : "River Lodge",
-				"creatures" : [[ "ftlv3" ]],
+				"creatures" : [
+					[
+						"ftlv3"
+					]
+				],
 				"templates" : {
-					"default" : {	
+					"default" : {
 						"animation" : "fairytale/map/dwellings/dwelling-3.def",
-						"mask" : [ "VVV", "VBB", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VBA"
+						]
 					}
 				}
 			},
 			"ftPortal" : {
 				"name" : "Portal",
-				"creatures" : [[ "ftlv4" ]],
+				"creatures" : [
+					[
+						"ftlv4"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "fairytale/map/dwellings/dwelling-4.def",
-						"mask" : [ "VBB", "VAB" ]
+						"mask" : [
+							"VBB",
+							"VAB"
+						]
 					}
 				}
 			},
 			"ftSchoolOfMagic" : {
 				"name" : "School of Magic",
-				"creatures" : [[ "ftlv5" ]],
+				"creatures" : [
+					[
+						"ftlv5"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "fairytale/map/dwellings/dwelling-5.def",
-						"mask" : [ "VVV", "VBB", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VAB"
+						]
 					}
 				}
 			},
 			"ftDragonNest" : {
 				"name" : "Dragon Nest",
-				"creatures" : [[ "ftlv6" ]],
+				"creatures" : [
+					[
+						"ftlv6"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "fairytale/map/dwellings/dwelling-6.def",
-						"mask" : [ "VVV", "VBB", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VAB"
+						]
 					}
 				}
 			},
 			"ftDragonRoost" : {
 				"name" : "Dragon Roost",
-				"creatures" : [[ "ftlv7" ]],
+				"creatures" : [
+					[
+						"ftlv7"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "fairytale/map/dwellings/dwelling-7.def",
-				"mask" : [ "VVV", "VVV", "VBB", "VBA" ]
-					
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBB",
+							"VBA"
+						]
 					}
 				}
 			},
 			"ftFlowerArbor " : {
 				"name" : "Flower Arbor",
-				"creatures" : [[ "ftlv3n" ]],
+				"creatures" : [
+					[
+						"ftlv3n"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "fairytale/map/dwellings/dwelling-8.def",
-				"mask" : [ "BB", "AB" ]
-					
+						"mask" : [
+							"BB",
+							"AB"
+						]
 					}
 				}
 			}
-		}		
+		}
 	}
 }

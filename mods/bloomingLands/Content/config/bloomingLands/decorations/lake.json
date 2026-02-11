@@ -2,26 +2,50 @@
 	"core:lake" : {
 		"types" : {
 			"object" : {
-				"templates" : {	
+				"templates" : {
 					"bloLake00" : {
 						"animation" : "bloomingLands/decorations/lakes/bloLake00",
-						"mask" : [ "VBBBBBB", "BBBBBBB","VBBBBBV" ],
-						"allowedTerrains": [ "bloomingLands" ]
+						"mask" : [
+							"VBBBBBB",
+							"BBBBBBB",
+							"VBBBBBV"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					},
 					"bloLake01" : {
 						"animation" : "bloomingLands/decorations/lakes/bloLake01",
-						"mask" : [ "BBBBB", "BBBBB", "BBBBV" ],
-						"allowedTerrains": [ "bloomingLands" ]
+						"mask" : [
+							"BBBBB",
+							"BBBBB",
+							"BBBBV"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					},
 					"bloLake02" : {
 						"animation" : "bloomingLands/decorations/lakes/bloLake02",
-						"mask" : [ "VVVVV", "BBBBB", "BBBBB"],
-						"allowedTerrains": [ "bloomingLands" ]
+						"mask" : [
+							"VVVVV",
+							"BBBBB",
+							"BBBBB"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					},
 					"bloLake03" : {
 						"animation" : "bloomingLands/decorations/lakes/bloLake03",
-						"mask" : [ "VVVV", "VBBB", "VVVV"],
-						"allowedTerrains": [ "bloomingLands" ]
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VVVV"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					}
 				}
 			}

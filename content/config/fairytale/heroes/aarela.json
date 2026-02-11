@@ -1,41 +1,46 @@
 {
-	"ftAarela" :
-	{
+	"ftAarela" : {
 		"class" : "keeper",
 		"female" : false,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Aarela",
 			"biography" : "One of Elrisa's best students, Aarela is said to be able to cast the most accurate and powerful Magic Arrows in all of fairytaledom.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Casts Magic Arrow with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
 				"tooltip" : "{Magic Arrow}\r\n\r\nCasts Magic Arrow with increased effect.",
 				"name" : "Magic Arrow"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "fairytale/heroes/aarela/UN32Summ.bmp",
 			"specialtyLarge" : "fairytale/heroes/aarela/UN44Summ.bmp",
 			"large" : "fairytale/heroes/aarela/hpl294.bmp",
 			"small" : "fairytale/heroes/aarela/hps294.bmp"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"magicArrow"
 		],
-		"army" :
-		[
-			{ "creature" : "ftlv1", "min" : 9, "max" : 15 },
-			{ "creature" : "ftlv2", "min" :  6, "max" :  9 },
-			{ "creature" : "ftlv3", "min" :  3, "max" :  6 }
+		"army" : [
+			{
+				"creature" : "ftlv1",
+				"min" : 9,
+				"max" : 15
+			},
+			{
+				"creature" : "ftlv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "ftlv3",
+				"min" : 3,
+				"max" : 6
+			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -57,4 +62,3 @@
 		}
 	}
 }
-

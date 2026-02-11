@@ -5,90 +5,176 @@
 				"templates" : {
 					"blooLanPin01" : {
 						"animation" : "bloomingLands/decorations/pineTrees/blooLanPin01",
-						"mask" : [ "VVV", "VBV" ],
-						"allowedTerrains": [ "bloomingLands" ]
+						"mask" : [
+							"VVV",
+							"VBV"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					},
 					"blooLanPin02" : {
 						"animation" : "bloomingLands/decorations/pineTrees/blooLanPin02",
-						"mask" : [ "VVV", "VBV" ],
-						"allowedTerrains": [ "bloomingLands" ]
+						"mask" : [
+							"VVV",
+							"VBV"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					},
 					"blooLanPin03" : {
 						"animation" : "bloomingLands/decorations/pineTrees/blooLanPin03",
-						"mask" : [ "VVV", "VBV" ],
-						"allowedTerrains": [ "bloomingLands" ]
+						"mask" : [
+							"VVV",
+							"VBV"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					},
 					"blooLanPin04" : {
 						"animation" : "bloomingLands/decorations/pineTrees/blooLanPin04",
-						"mask" : [ "VV", "VB" ],
-						"allowedTerrains": [ "bloomingLands" ]
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					},
 					"blooLanPin05" : {
 						"animation" : "bloomingLands/decorations/pineTrees/blooLanPin05",
-						"mask" : [ "VV", "VB" ],
-						"allowedTerrains": [ "bloomingLands" ]
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					},
 					"blooLanPin06" : {
 						"animation" : "bloomingLands/decorations/pineTrees/blooLanPin06",
-						"mask" : [ "VV", "VB" ],
-						"allowedTerrains": [ "bloomingLands" ]
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					},
 					"blooLanPin07" : {
 						"animation" : "bloomingLands/decorations/pineTrees/blooLanPin07",
-						"mask" : [ "VV", "VB" ],
-						"allowedTerrains": [ "bloomingLands" ]
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					},
 					"blooLanPin08" : {
 						"animation" : "bloomingLands/decorations/pineTrees/blooLanPin08",
-						"mask" : [ "VV", "VB" ],
-						"allowedTerrains": [ "bloomingLands" ]
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					},
 					"blooLanPin09" : {
 						"animation" : "bloomingLands/decorations/pineTrees/blooLanPin09",
-						"mask" : [ "VVVV", "VVBB", "VBBV" ],
-						"allowedTerrains": [ "bloomingLands" ]
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					},
 					"blooLanPin10" : {
 						"animation" : "bloomingLands/decorations/pineTrees/blooLanPin10",
-						"mask" : [ "VVVV", "VVBB", "VBBV" ],
-						"allowedTerrains": [ "bloomingLands" ]
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					},
 					"blooLanPin11" : {
 						"animation" : "bloomingLands/decorations/pineTrees/blooLanPin11",
-						"mask" : [ "VVVV", "VBBV", "VVBB" ],
-						"allowedTerrains": [ "bloomingLands" ]
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					},
 					"blooLanPin12" : {
 						"animation" : "bloomingLands/decorations/pineTrees/blooLanPin12",
-						"mask" : [ "VVVV", "VBBV", "VVBB" ],
-						"allowedTerrains": [ "bloomingLands" ]
-					},	
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
+					},
 					"blooLanPin13" : {
 						"animation" : "bloomingLands/decorations/pineTrees/blooLanPin13",
-						"mask" : [ "VVVV", "VBBV", "VBBB", "VVBB" ],
-						"allowedTerrains": [ "bloomingLands" ]
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VBBB",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					},
 					"blooLanPin14" : {
 						"animation" : "bloomingLands/decorations/pineTrees/blooLanPin14",
-						"mask" : [ "VVVV", "VVBB", "VBBB", "VBBV" ],
-						"allowedTerrains": [ "bloomingLands" ]
-					},	
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
+					},
 					"blooLanPin15" : {
 						"animation" : "bloomingLands/decorations/pineTrees/blooLanPin15",
-						"mask" : [ "VVV", "VBV", "VVV" ],
-						"allowedTerrains": [ "bloomingLands" ]
+						"mask" : [
+							"VVV",
+							"VBV",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					},
 					"blooLanPin16" : {
 						"animation" : "bloomingLands/decorations/pineTrees/blooLanPin16",
-						"mask" : [ "VVV", "VBV", "VVV" ],
-						"allowedTerrains": [ "bloomingLands" ]
+						"mask" : [
+							"VVV",
+							"VBV",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					}
-				}	
-			}					
+				}
+			}
 		}
 	}
-}	
-	
-
-
-	
+}

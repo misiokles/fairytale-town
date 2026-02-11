@@ -1,38 +1,34 @@
 {
-    "name": "Blooming Lands",
-    "description": "Blooming Lands",
-    "version": "0.1",
-    "author": "Zeryss,",
-    "contact": "none",
-    "modType": "Objects",
-	"compatibility" :
-	{
+	"name" : "Blooming Lands",
+	"description" : "Blooming Lands",
+	"version" : "0.1",
+	"author" : "Zeryss,",
+	"contact" : "none",
+	"modType" : "Objects",
+	"compatibility" : {
 		"min" : "1.2.0"
 	},
-	"changelog" :
-	{
-		"0.0.1"  : [ "Initial release" ]
+	"changelog" : {
+		"0.0.1" : [
+			"Initial release"
+		]
 	},
-	"factions" :
-	[
+	"factions" : [
 		"config/bloomingLands/terrain/fractionTerrain.json"
 	],
-	"terrains":
-	[
+	"terrains" : [
 		"config/bloomingLands/terrain/terrains.json"
 	],
-	"obstacles":
-	[
+	"obstacles" : [
 		"config/bloomingLands/obstacles/obstacles.json"
 	],
-	"objects":
-	[
+	"objects" : [
 		"config/bloomingLands/decorations/flowers.json",
 		"config/bloomingLands/decorations/grassHills.json",
 		"config/bloomingLands/decorations/hole.json",
 		"config/bloomingLands/decorations/lake.json",
 		"config/bloomingLands/decorations/mountains.json",
-		"config/bloomingLands/decorations/mushroom.json",	
+		"config/bloomingLands/decorations/mushroom.json",
 		"config/bloomingLands/decorations/oakTrees.json",
 		"config/bloomingLands/decorations/pineTrees.json",
 		"config/bloomingLands/decorations/shrub.json",
@@ -41,7 +37,7 @@
 		"config/bloomingLands/decorations/trees.json",
 		"config/bloomingLands/objects/abandonedMine.json",
 		"config/bloomingLands/objects/hillFort.json",
-	    "config/bloomingLands/objects/signs.json",
+		"config/bloomingLands/objects/signs.json",
 		"config/bloomingLands/objects/treeOfKnowledge.json",
 		"config/bloomingLands/special/obelisk.json",
 		"config/bloomingLands/special/mines.json"

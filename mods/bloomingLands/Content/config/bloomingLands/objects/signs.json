@@ -5,9 +5,17 @@
 				"templates" : {
 					"bloomingLands_sign" : {
 						"animation" : "bloomingLands/objects/sign/RedSign",
-						"allowedTerrains": [ "bloomingLands" ],
-						"mask" : [ "A" ],
-						"visitableFrom" : [ "---", "+++", "+++" ]
+						"allowedTerrains" : [
+							"bloomingLands"
+						],
+						"mask" : [
+							"A"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						]
 					}
 				}
 			}

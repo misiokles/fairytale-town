@@ -1,68 +1,56 @@
 {
-	"ftlv3n":
-	{
-		"name" :
-		{
+	"ftlv3n" : {
+		"name" : {
 			"plural" : "fairytale Nobles",
 			"singular" : "fairytale Noble"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 28,
 			"min" : 14
 		},
 		"faction" : "fairytale",
 		"aiValue" : 298,
 		"attack" : 7,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 150
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 5,
 			"min" : 2
 		},
 		"defense" : 8,
 		"fightValue" : 315,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "fairytale/battle/creatures/lv3n.def",
 			"map" : "fairytale/map/creatures/lv3n.def",
 			"iconSmall" : "fairytale/iconsSmall/creatures/lv3n.bmp",
 			"iconLarge" : "fairytale/iconsBig/creatures/lv3n.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1.25,
 				"attack" : 1,
 				"idle" : 10
-			},
-	       },
+			}
+		},
 		"growth" : 8,
 		"hitPoints" : 16,
 		"level" : 3,
-		"upgrades":
-		[
+		"upgrades" : [
 			"ftlv3nup"
 		],
-		"sound" :
-		{
-			"attack": "PIXIATTK.wav",
+		"sound" : {
+			"attack" : "PIXIATTK.wav",
 			"defend" : "fairytale/pixiesat.wav",
 			"killed" : "fairytale/pixiedie.wav",
 			"move" : "fairytale/fairy_lp.wav",
-			"wince" : "fairytale/pixiehit.wav",
+			"wince" : "fairytale/pixiehit.wav"
 		},
 		"speed" : 8,
-		"abilities" :
-		{
-			"canFly" : 
-			{
+		"abilities" : {
+			"canFly" : {
 				"type" : "FLYING"
 			},
-			"castWeakness" :
-			{
+			"castWeakness" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.weakness",
 				"val" : 50

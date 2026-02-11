@@ -2,44 +2,84 @@
 	"core:mine" : {
 		"types" : {
 			"crystalCavern" : {
-				"templates": {
+				"templates" : {
 					"bloLanCryCav" : {
 						"animation" : "bloomingLands/special/mines/bloLanCryCav",
-						"visitableFrom": ["---", "+++", "+++"],
-				     	"mask": ["VVVV", "VBBB", "VBAB"],
-					    "allowedTerrains": ["bloomingLands"]
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VBAB"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					}
 				}
 			},
 			"goldMine" : {
-				"templates": {
-					"bloLanGol": {
-					"animation" : "bloomingLands/special/mines/bloLanGol",
-					"visitableFrom": ["---", "+++", "+++"],
-					"mask": ["VVVV", "VBBB", "VBAB"],
-					"allowedTerrains": ["bloomingLands"]
+				"templates" : {
+					"bloLanGol" : {
+						"animation" : "bloomingLands/special/mines/bloLanGol",
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VBAB"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					}
 				}
 			},
-			
+
 			"sawmill" : {
 				"templates" : {
-					    "bloLanSaw": {
-					    "animation" : "bloomingLands/special/mines/bloLanSaw",
-                        "mask" : ["VVVVV", "VVBBB", "VBBAB"],
-						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"allowedTerrains" : ["bloomingLands"]
+					"bloLanSaw" : {
+						"animation" : "bloomingLands/special/mines/bloLanSaw",
+						"mask" : [
+							"VVVVV",
+							"VVBBB",
+							"VBBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					}
 				}
 			},
-			
+
 			"alchemistLab" : {
 				"templates" : {
 					"bloLanAlcLab" : {
-					   "animation" : "bloomingLands/special/mines/bloLanAlcLab", 
-						"mask" : ["VVV", "BBB", "BAB"],
-						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"allowedTerrains" : ["bloomingLands"]
+						"animation" : "bloomingLands/special/mines/bloLanAlcLab",
+						"mask" : [
+							"VVV",
+							"BBB",
+							"BAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					}
 				}
 			},
@@ -47,32 +87,59 @@
 				"templates" : {
 					"bloLanOrePit" : {
 						"animation" : "bloomingLands/special/mines/bloLanOrePit",
-						"mask" : ["BBB", "BAB"],
-						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"allowedTerrains" : ["bloomingLands"]
+						"mask" : [
+							"BBB",
+							"BAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					}
 				}
 			},
 			"sulfurDune" : {
 				"templates" : {
 					"bloLanSulDun" : {
-						"animation" : "bloomingLands/special/mines/bloLanSulDun",  
-						"mask" : ["VVV", "BAB"],
-						"visitableFrom" : [ "---", "-+-", "+++" ],
-					    "allowedTerrains": ["bloomingLands"]
+						"animation" : "bloomingLands/special/mines/bloLanSulDun",
+						"mask" : [
+							"VVV",
+							"BAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					}
 				}
 			},
 			"gemPond" : {
 				"templates" : {
-					"bloLanGemPon": {
-					"animation" : "bloomingLands/special/mines/bloLanGemPon",  
-					"visitableFrom": ["---", "+++", "+++"],
-					"mask" : ["BBB", "BAB"],
-					"allowedTerrains": ["bloomingLands"]
+					"bloLanGemPon" : {
+						"animation" : "bloomingLands/special/mines/bloLanGemPon",
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask" : [
+							"BBB",
+							"BAB"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					}
 				}
 			}
 		}
 	}
-}	
+}

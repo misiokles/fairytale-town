@@ -1,64 +1,53 @@
 {
-	"ftlv3":
-	{
-		"name" :
-		{
+	"ftlv3" : {
+		"name" : {
 			"plural" : "Tortofroids",
 			"singular" : "Tortofroid"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 28,
 			"min" : 14
 		},
 		"faction" : "fairytale",
 		"aiValue" : 268,
 		"attack" : 7,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 150
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 5,
 			"min" : 2
 		},
 		"defense" : 8,
 		"fightValue" : 215,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "fairytale/battle/creatures/lv3.def",
 			"map" : "fairytale/map/creatures/lv3.def",
 			"iconSmall" : "fairytale/iconsSmall/creatures/lv3.bmp",
 			"iconLarge" : "fairytale/iconsBig/creatures/lv3.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.80,
+			"animationTime" : {
+				"walk" : 1.8,
 				"attack" : 1,
 				"idle" : 4
-			},
-	       },
+			}
+		},
 		"growth" : 8,
 		"hitPoints" : 25,
 		"level" : 3,
-		"upgrades":
-		[
+		"upgrades" : [
 			"ftlv3up"
 		],
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "fairytale/attack",
 			"defend" : "fairytale/defend",
 			"killed" : "fairytale/kill",
 			"move" : "fairytale/move",
-			"wince" : "fairytale/wince",
+			"wince" : "fairytale/wince"
 		},
 		"speed" : 7,
-		"abilities" :
-		{
-			"reduceDef" : 
-			{
+		"abilities" : {
+			"reduceDef" : {
 				"type" : "ENEMY_DEFENCE_REDUCTION",
 				"val" : 20
 			}

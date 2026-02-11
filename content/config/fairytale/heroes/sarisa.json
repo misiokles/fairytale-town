@@ -1,39 +1,53 @@
 {
-	"ftSarisa" :
-	{
+	"ftSarisa" : {
 		"class" : "keeper",
 		"female" : false,
-	
-		"texts" :
-		{
+
+		"texts" : {
 			"name" : "Sarisa",
 			"biography" : "Legend has it Sarisa was born during the worst blizzard the world had ever known. It is said that the gods blessed her during that storm, granting her the ability to blind her enemies the way the storm blinded all caught within it.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Casts Fortune with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
 				"tooltip" : "{Fortune}\r\n\r\nCasts Fortune with increased effect.",
 				"name" : "Fortune"
 			}
 		},
-	
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "fairytale/heroes/sarisa/Un32Warl.bmp",
 			"specialtyLarge" : "fairytale/heroes/sarisa/Un44Warl.bmp",
 			"large" : "fairytale/heroes/sarisa/hpl291.bmp",
 			"small" : "fairytale/heroes/sarisa/hps291.bmp"
 		},
-       "army" :
-		[
-			{ "creature" : "ftlv1", "min" : 9, "max" : 15 },
-			{ "creature" : "ftlv2", "min" :  6, "max" :  9 },
-			{ "creature" : "ftlv3", "min" :  3, "max" :  6 }
+		"army" : [
+			{
+				"creature" : "ftlv1",
+				"min" : 9,
+				"max" : 15
+			},
+			{
+				"creature" : "ftlv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "ftlv3",
+				"min" : 3,
+				"max" : 6
+			}
 		],
-		"spellbook": [ "fortune" ],
-		"skills":
-		[
-			{ "skill" : "wisdom", "level": "basic" },
-			{ "skill" : "luck", "level": "basic" }
+		"spellbook" : [
+			"fortune"
+		],
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "luck",
+				"level" : "basic"
+			}
 		],
 		"specialty" : {
 			"bonuses" : {
@@ -41,9 +55,8 @@
 					"addInfo" : 3,
 					"subtype" : "spell.fortune",
 					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
-			    }
+				}
 			}
 		}
 	}
 }
-

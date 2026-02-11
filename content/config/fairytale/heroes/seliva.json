@@ -1,41 +1,53 @@
 {
-	"ftSeliva" :
-	{
+	"ftSeliva" : {
 		"class" : "diviner",
 		"female" : false,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Seliva",
 			"biography" : "Seliva is one of the finest weaponsmiths known. It is said she makes all the weapons for her warriors, and that those weapons make some of the deepest woounds ever seen.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases the Attack and Defense skills of Sorceress and Supreme Sorceress or each level attained after 2nd level.",
 				"tooltip" : "{Sorceress}\r\n\r\nIncreases the Attack and Defense skills of Sorceress and Supreme Sorceress.",
 				"name" : "Sorceress"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "fairytale/heroes/seliva/UN32Blsh.bmp",
 			"specialtyLarge" : "fairytale/heroes/seliva/UN44Blsh.bmp",
 			"large" : "fairytale/heroes/seliva/hpl298.bmp",
-			"small" : "fairytale/heroes/seliva/hps298.bmp",
+			"small" : "fairytale/heroes/seliva/hps298.bmp"
 		},
-        "army" :
-		[
-			{ "creature" : "ftlv1", "min" : 9, "max" : 15 },
-			{ "creature" : "ftlv2", "min" :  6, "max" :  9 },
-			{ "creature" : "ftlv3", "min" :  3, "max" :  6 }
+		"army" : [
+			{
+				"creature" : "ftlv1",
+				"min" : 9,
+				"max" : 15
+			},
+			{
+				"creature" : "ftlv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "ftlv3",
+				"min" : 3,
+				"max" : 6
+			}
 		],
-		"skills":
-		[
-			{ "skill" : "archery", "level": "basic" },
-			{ "skill" : "resistance", "level": "basic" }
+		"skills" : [
+			{
+				"skill" : "archery",
+				"level" : "basic"
+			},
+			{
+				"skill" : "resistance",
+				"level" : "basic"
+			}
 		],
 		"specialty" : {
 			"creature" : "ftlv5"
-		}		
+		}
 	}
 }

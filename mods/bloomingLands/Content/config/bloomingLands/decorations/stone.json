@@ -1,52 +1,90 @@
 {
-	"core:rock" :{
+	"core:rock" : {
 		"types" : {
 			"object" : {
 				"templates" : {
 					"redSoiSto00" : {
 						"animation" : "bloomingLands/decorations/stone/redSoiSto00",
-						"mask" : [ "VB" ],
-						"allowedTerrains": [ "bloomingLands" ]
+						"mask" : [
+							"VB"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					},
 					"redSoiSto01" : {
 						"animation" : "bloomingLands/decorations/stone/redSoiSto01",
-						"mask" : [ "VV", "VB" ],
-						"allowedTerrains": [ "bloomingLands" ]
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					},
 					"redSoiSto02" : {
 						"animation" : "bloomingLands/decorations/stone/redSoiSto02",
-						"mask" : [ "BB" ],
-						"allowedTerrains": [ "bloomingLands" ]
+						"mask" : [
+							"BB"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					},
 					"redSoiSto03" : {
 						"animation" : "bloomingLands/decorations/stone/redSoiSto03",
-						"mask" : [ "VV", "BB" ],
-						"allowedTerrains": [ "bloomingLands" ]
+						"mask" : [
+							"VV",
+							"BB"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					},
 					"redSoiSto04" : {
 						"animation" : "bloomingLands/decorations/stone/redSoiSto04",
-						"mask" : [ "VBV" ],
-						"allowedTerrains": [ "bloomingLands" ]
+						"mask" : [
+							"VBV"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					},
 					"redSoiSto05" : {
 						"animation" : "bloomingLands/decorations/stone/redSoiSto05",
-						"mask" : [ "B" ],
-						"allowedTerrains": [ "bloomingLands" ]
+						"mask" : [
+							"B"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					},
 					"redSoiSto06" : {
 						"animation" : "bloomingLands/decorations/stone/redSoiSto06",
-						"mask" : [ "VB" ],
-						"allowedTerrains": [ "bloomingLands" ]
+						"mask" : [
+							"VB"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					},
 					"redSoiSto07" : {
 						"animation" : "bloomingLands/decorations/stone/redSoiSto07",
-						"mask" : [ "B" ],
-						"allowedTerrains": [ "bloomingLands" ]
+						"mask" : [
+							"B"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					},
 					"redSoiSto08" : {
 						"animation" : "bloomingLands/decorations/stone/redSoiSto08",
-						"mask" : [ "VBV" ],
-						"allowedTerrains": [ "bloomingLands" ]
+						"mask" : [
+							"VBV"
+						],
+						"allowedTerrains" : [
+							"bloomingLands"
+						]
 					}
 				}
 			}
