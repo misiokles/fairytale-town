@@ -1,0 +1,49 @@
+{
+	"ftMeri" :
+	{
+		"class" : "diviner",
+		"female" : false,
+
+		"texts" :
+		{
+			"name" : "Meri",
+			"biography" : "Meri is one of the finest explorers ever to travel the realm, able to find the quickest paths with ease.",
+			"specialty" :
+			{
+				"description" : "Receives a 5% per level bonus too Logistics skill percentage.",
+				"tooltip" : "{Logistics}\r\n\r\nReceives a 5% per level bonus too Logistics skill percentage.",
+				"name" : "Logistics"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "fairytale/heroes/meri/un32logi.bmp",
+			"specialtyLarge" : "fairytale/heroes/meri/un44logi.bmp",
+			"large" : "fairytale/heroes/meri/hpl285.bmp",
+			"small" : "fairytale/heroes/meri/hps285.bmp"
+		},
+        "army" :
+		[
+			{ "creature" : "ftlv1", "min" : 9, "max" : 15 },
+			{ "creature" : "ftlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "ftlv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "scouting", "level": "basic" },
+			{ "skill" : "logistics", "level": "basic" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"logistics" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"subtype" : "heroMovementLand",
+					"type" : "MOVEMENT",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

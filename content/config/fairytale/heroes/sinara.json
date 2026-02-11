@@ -1,0 +1,42 @@
+{
+	"ftSinara" :
+	{
+		"class" : "diviner",
+		"female" : true,
+
+		"texts" :
+		{
+			"name" : "Sinara",
+			"biography" : "Sinara has a heart of gold, and a voice that is said to make the flower and rainbow dragons dance on the winds. They protect her as if she were their greatest treasure.",
+			"specialty" :
+			{
+				"description" : "Increases the Attack and Defense skills of Flower Dragons or Rainbow Dragons or each level attained after 2th level.",
+				"tooltip" : "{Flower Dragons}\r\n\r\nIncreases the Attack and Defense skills of Flower Dragons or Rainbow Dragons.",
+				"name" : "Flower Dragons"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "fairytale/heroes/sinara/un32bsrd.bmp",
+			"specialtyLarge" : "fairytale/heroes/sinara/un44bsrd.bmp",
+			"large" : "fairytale/heroes/sinara/hpl288.bmp",
+			"small" : "fairytale/heroes/sinara/hps288.bmp"
+		},
+       "army" :
+		[
+			{ "creature" : "ftlv1", "min" : 9, "max" : 15 },
+			{ "creature" : "ftlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "ftlv3", "min" :  3, "max" :  6 }
+		],
+		"spellbook": [ "shield" ],
+		"skills":
+		[
+			{ "skill" : "scouting", "level": "basic" },
+			{ "skill" : "armorer", "level": "basic" }
+		],
+		"specialty" : {
+			"creature" : "ftlv2"
+		}		
+	}
+}

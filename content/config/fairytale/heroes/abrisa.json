@@ -1,0 +1,52 @@
+{
+	"ftAbrisa" :
+	{
+		"class" : "keeper",
+		
+		"texts" :
+		{
+			"name" : "Abrisa",
+			"biography" : "Abrisa's beauty is only surpassed by her ability to lead her troops in battle. It is said when she blows a kiss at her enemies, even they feel weak in the knees and have trouble fighting agaist her forces.",
+			"specialty" :
+			{
+				"description" : "Casts Weakness with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units.)",
+				"tooltip" : "{Weakness}\r\n\r\nCasts Weakness with increased effect.",
+				"name" : "Weakness"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "fairytale/heroes/abrisa/un32weak.bmp",
+			"specialtyLarge" : "fairytale/heroes/abrisa/un44weak.bmp",
+			"large" : "fairytale/heroes/abrisa/portrait-large.bmp",
+			"small" : "fairytale/heroes/abrisa/portrait-small.bmp",
+		},
+		
+		"spellbook" :
+		[
+			"weakness"
+		],
+        "army" :
+		[
+			{ "creature" : "ftlv1", "min" : 9, "max" : 15 },
+			{ "creature" : "ftlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "ftlv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "waterMagic", "level": "basic" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"weakness" : {
+					"addInfo" : 0,
+					"subtype" : "spell.weakness",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}
+

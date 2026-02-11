@@ -1,0 +1,83 @@
+{
+	"ftlv7":
+	{
+		"name" :
+		{
+			"plural" : "Blue Dragons",
+			"singular" : "Blue Dragon"
+		},
+		"advMapAmount" :
+		{
+			"max" : 8,
+			"min" : 3
+		},
+		"upgrades" : [ "ftlv7up" ],
+		"faction" : "fairytale",
+		"aiValue" : 5931,
+		"doubleWide" : true,
+		"attack" : 18,
+		"cost" :
+		{
+			"gold" : 2400,
+			"gems" : 1
+		},
+		"damage" :
+		{
+			"max" : 50,
+			"min" : 40
+		},
+		"defense" : 18,
+		"fightValue" : 5272,
+		"graphics" :
+		{
+			"animation" : "fairytale/battle/creatures/lv7.def",
+			"map" : "fairytale/map/creatures/lv7.def",
+			"iconSmall" : "fairytale/iconsSmall/creatures/lv7.bmp",
+			"iconLarge" : "fairytale/iconsBig/creatures/lv7.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"growth" : 1,
+		"hitPoints" : 180,
+		"level" : 7,
+		"sound" :
+		{
+			"attack" : "SWDRATTK.wav",
+			"defend" : "SWDRDFND.wav",
+			"killed" : "SWDRKILL.wav",
+			"move"   : "SWDRMOVE.wav",
+			"wince"  : "SWDRWNCE.wav"
+ 		},
+		"speed" : 10,
+		"abilities" :
+		{
+			"canFly" : 
+			{
+				"type" : "FLYING"
+			},
+			"dragon" : 
+			{
+				"type" : "DRAGON_NATURE"
+			},
+			"dragonSkeleton" : 
+			{
+				"type" : "SKELETON_TRANSFORMER_TARGET",
+				"subtype" : "boneDragon"
+			},
+			"fireBreath" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},
+			"spellImmunity" :
+			{
+				"type" : "LEVEL_SPELL_IMMUNITY",
+				"val" : 3
+			}
+		}
+	}
+}

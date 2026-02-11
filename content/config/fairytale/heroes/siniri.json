@@ -1,0 +1,41 @@
+{
+	"ftSiniri" :
+	{
+		"class" : "diviner",
+		"female" : true,
+
+		"texts" :
+		{
+			"name" : "Siniri",
+			"biography" : "Siniri is a bit of a celebrity in the world of Tortofroids. She and her entourage are known as the Royal Gold fairytale brigade.",
+			"specialty" :
+			{
+				"description" : "Increases the Attack and Defense skills of Tortofroids or Vile Tortofroids or each level attained after 2th level.",
+				"tooltip" : "{Tortofroids}\r\n\r\nIncreases the Attack and Defense skills of Tortofroids or Vile Tortofroids",
+				"name" : "Tortofroids"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "fairytale/heroes/siniri/un32ball.bmp",
+			"specialtyLarge" : "fairytale/heroes/siniri/un44ball.bmp",
+			"large" : "fairytale/heroes/siniri/hpl290.bmp",
+			"small" : "fairytale/heroes/siniri/hps290.bmp"
+		},
+       "army" :
+		[
+			{ "creature" : "ftlv1", "min" : 9, "max" : 15 },
+			{ "creature" : "ftlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "ftlv3", "min" :  3, "max" :  6 }
+		],
+		"spellbook": [ "haste" ],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "offence", "level": "basic" }
+		],
+		"specialty" : {
+			"creature" : "ftlv3"
+		}		
+	}
+}

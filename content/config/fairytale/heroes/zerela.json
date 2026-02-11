@@ -1,0 +1,46 @@
+{
+	"ftZerela" :
+	{
+		"class" : "keeper",
+		"female" : false,
+
+		"texts" :
+		{
+			"name" : "Zerela",
+			"biography" : "Zarela is one of the bravest Halflings in the land. She leads her grassland cousins on some of the most daring missions, inspiring them to greatness in battle.",
+			"specialty" :
+			{
+				"description" : "Increases the Speed of any Halflings and Halfling Warlike by 1 and their Attack and Defense skills by 5% for every level (rounded up).",
+				"tooltip" : "Bonus: creature",
+				"name" : "Halflings"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "fairytale/heroes/zerela/UN32Dark.bmp",
+			"specialtyLarge" : "fairytale/heroes/zerela/UN44Dark.bmp",
+			"large" : "fairytale/heroes/zerela/hpl296.bmp",
+			"small" : "fairytale/heroes/zerela/hps296.bmp",
+		},
+
+		"spellbook" :
+		[
+			"haste" 
+		],
+		"army" :
+		[
+			{ "creature" : "ftlv1", "min" : 15, "max" : 25 },
+			{ "creature" : "ftlv1", "min" : 15, "max" : 25  },
+			{ "creature" : "ftlv1", "min" : 15, "max" : 25  }
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "luck", "level": "basic" }
+		],
+		"specialty" : {
+			"creature" : "ftlv1"
+		}		
+	}
+}

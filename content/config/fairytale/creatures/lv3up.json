@@ -1,0 +1,70 @@
+{
+	"ftlv3up":
+	{
+		"name" :
+		{
+			"plural" : "Vile Tortofroids",
+			"singular" : "Vile Tortofroid"
+		},
+		"advMapAmount" :
+		{
+			"max" : 28,
+			"min" : 14
+		},
+		"faction" : "fairytale",
+		"aiValue" : 270,
+		"attack" : 7,
+		"cost" :
+		{
+			"gold" : 200
+		},
+		"damage" :
+		{
+			"max" : 5,
+			"min" : 2
+		},
+		"defense" : 9,
+		"fightValue" : 235,
+		"graphics" :
+		{
+			"animation" : "fairytale/battle/creatures/lv3up.def",
+			"map" : "fairytale/map/creatures/lv3up.def",
+			"iconSmall" : "fairytale/iconsSmall/creatures/lv3up.bmp",
+			"iconLarge" : "fairytale/iconsBig/creatures/lv3up.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.80,
+				"attack" : 1,
+				"idle" : 4
+			}
+	       },
+		"growth" : 8,
+		"hitPoints" : 30,
+		"level" : 3,
+		"sound" :
+		{
+			"attack" : "fairytale/attack",
+			"defend" : "fairytale/defend",
+			"killed" : "fairytale/kill",
+			"move" : "fairytale/move",
+			"wince" : "fairytale/wince"
+		},
+		"speed" : 8,
+		"abilities":
+		{
+			"reduceDef" : 
+			{
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 20
+			},
+			"disease" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.disease",
+				"val" : 25,
+				"addInfo" : [1, 2]
+			}
+		}
+	}
+}

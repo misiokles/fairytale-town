@@ -1,0 +1,49 @@
+{
+	"ftZeria" :
+	{
+		"class" : "diviner",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "Zeria",
+			"biography" : "Zeria was said to have been born in the center of a magic nexus. Whether this is true or rumor is widely speculated upon, but she definately packs a powerful punch with her spells.",
+			"specialty" :
+			{
+				"description" : "Receives a 5% per level bonus to Armorer skill percentage.",
+				"tooltip" : "{Armorer}\r\n\r\nReceives a 5% per level bonus to Armorer skill percentage.",
+				"name" : "Armorer"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "fairytale/heroes/zeria/un32sorc.bmp",
+			"specialtyLarge" : "fairytale/heroes/zeria/un44sorc.bmp",
+			"large" : "fairytale/heroes/zeria/hpl297.bmp",
+			"small" : "fairytale/heroes/zeria/hps297.bmp"
+		},
+      "army" :
+		[
+			{ "creature" : "ftlv1", "min" : 9, "max" : 15 },
+			{ "creature" : "ftlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "ftlv3", "min" :  3, "max" :  6 }
+		],
+		"spellbook": [ "shield" ],
+		"skills":
+		[
+			{ "skill" : "scholar", "level": "basic" },
+			{ "skill" : "armorer", "level": "basic" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"armorer" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : "damageTypeAll",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

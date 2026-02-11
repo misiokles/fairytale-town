@@ -1,0 +1,52 @@
+{
+	"ftElrisa" :
+	{
+		"class" : "keeper",
+		"female" : true,
+
+		"texts" :
+		{
+			"name" : "Elrisa",
+			"biography" : "Elrisa is a teacher of magic school during peacetime. It is said she has memorized every beginner spell ever cast.",
+			"specialty" :
+			{
+				"description" : "All 1st level spells in spellbook.",
+				"tooltip" : "{Scribe}\r\n\r\nAll 1st level spells in spellbook.",
+				"name" : "Mysticism"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "fairytale/heroes/elrisa/Un32Scri.bmp",
+			"specialtyLarge" : "fairytale/heroes/elrisa/Un44Scri.bmp",
+			"large" : "fairytale/heroes/elrisa/hpl293.bmp",
+			"small" : "fairytale/heroes/elrisa/hps293.bmp",
+		},
+		
+		"spellbook": [ "stoneSkin" ],
+		"army" :
+		[
+			{ "creature" : "ftlv1", "min" : 9, "max" : 15 },
+			{ "creature" : "ftlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "ftlv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "mysticism", "level": "basic" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"mysticism" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "MANA_REGENERATION",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}
+

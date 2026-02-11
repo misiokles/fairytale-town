@@ -1,0 +1,41 @@
+{
+	"core:stump" : {
+		"types" : {
+			"stump" : {
+				"name" : "Stump",
+				"templates" : {
+					"bloLanStu01" : {
+						"animation" : "bloomingLands/decorations/stump/bloLanStu01",
+						"mask" : [ "B" ],
+						"allowedTerrains": [ "bloomingLands" ]
+					},
+					"bloLanStu02" : {
+						"animation" : "bloomingLands/decorations/stump/bloLanStu02",
+						"mask" : [ "B" ],
+						"allowedTerrains": [ "bloomingLands" ]
+					},
+					"bloLanStu03" : {
+						"animation" : "bloomingLands/decorations/stump/bloLanStu03",
+						"mask" : [ "VB" ],
+						"allowedTerrains": [ "bloomingLands" ]
+					},
+					"bloLanStu04" : {
+						"animation" : "bloomingLands/decorations/stump/bloLanStu04",
+						"mask" : [ "B" ],
+						"allowedTerrains": [ "bloomingLands" ]
+					},
+					"bloLanStu05" : {
+						"animation" : "bloomingLands/decorations/stump/bloLanStu05",
+						"mask" : [ "B" ],
+						"allowedTerrains": [ "bloomingLands" ]
+					},
+					"bloLanStu06" : {
+						"animation" : "bloomingLands/decorations/stump/bloLanStu06",
+						"mask" : [ "VB" ],
+						"allowedTerrains": [ "bloomingLands" ]
+					}
+				}
+			}
+		}
+	}
+}

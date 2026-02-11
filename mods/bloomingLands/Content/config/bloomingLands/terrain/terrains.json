@@ -1,0 +1,20 @@
+{
+	"bloomingLands" :
+	{
+		"text":"Blooming Lands",
+		"moveCost" : 100,
+		"minimapUnblocked" : [ 144, 165, 17 ],
+		"minimapBlocked"   : [ 54, 99, 39 ],
+		"music" : [ "Grass.mp3" ],
+
+		"tiles" : "bloomingLands/terrain/bloomingLands",
+		"shortIdentifier" : "bl",
+		"battleFields" : ["grass_hills", "grass_pines"],
+		"terrainViewPatterns" : "grass",
+		"type":["SURFACE"],
+		"river" : "waterRiver",
+		"rockTerrain":"rock",
+		"horseSound" : "horse02",
+		"horseSoundPenalty" : "horse22"
+	}
+}

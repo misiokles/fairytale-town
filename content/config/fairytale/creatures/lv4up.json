@@ -1,0 +1,49 @@
+{
+	"ftlv4up" : {
+		"abilities":
+		{
+			"blinds" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.blind",
+				"val" : 20,
+				"addInfo" : [3,0]
+			},
+			"spellResistAura" :
+			{
+				"type" : "SPELL_RESISTANCE_AURA",
+				"val" : 15
+			}
+		},
+		"advMapAmount" : { "max" : 18, "min" : 10 },
+		"aiValue" : 576,
+		"attack" : 12,
+		"cost" : { "gold" : 450 },
+		"damage" : { "max" : 10, "min" : 7 },
+		"defense" : 12,
+		"faction" : "fairytale",
+		"fightValue" : 507,
+		"graphics" : {
+			"animation" : "fairytale/battle/creatures/lv4up.def",
+			"animationTime" : { "attack" : 1, "idle" : 4, "walk" : 1.30 },
+			"iconSmall" : "fairytale/iconsSmall/creatures/lv4up.bmp",
+			"iconLarge" : "fairytale/iconsBig/creatures/lv4up.bmp",
+			"map" : "fairytale/map/creatures/lv4up.def",
+			"timeBetweenFidgets" : 10
+		},
+		"growth" : 4,
+		"hitPoints" : 35,
+        "doubleWide" : true,
+		"level" : 4,
+		"name" : { "plural" : "Unicorns", "singular" : "Unicorn" },
+		"sound" : {
+			"attack": "WUNCATTK.wav",
+			"defend": "WUNCDFND.wav",
+			"killed": "WUNCKILL.wav",
+			"move": "WUNCMOVE.wav",
+			"shoot": "WUNCSHOT.wav",
+			"wince": "WUNCWNCE.wav"
+		},
+		"speed" : 9,
+	}
+}

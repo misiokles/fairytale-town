@@ -1,0 +1,42 @@
+{
+	"ftlv4" : {
+		"abilities":
+		{
+			"spellResistAura" :
+			{
+				"type" : "SPELL_RESISTANCE_AURA",
+				"val" : 15
+			}
+		},
+		"advMapAmount" : { "max" : 25, "min" : 13 },
+		"aiValue" : 552,
+		"attack" : 10,
+		"cost" : { "gold" : 350 },
+		"damage" : { "max" : 10, "min" : 7 },
+		"defense" : 10,
+		"faction" : "fairytale",
+		"fightValue" : 506,
+		"graphics" : {
+			"animation" : "fairytale/battle/creatures/lv4.def",
+			"animationTime" : { "attack" : 1, "idle" : 4, "walk" : 1.30 },
+			"iconSmall" : "fairytale/iconsSmall/creatures/lv4.bmp",
+			"iconLarge" : "fairytale/iconsBig/creatures/lv4.bmp",
+			"map" : "fairytale/map/creatures/lv4.def",
+			"timeBetweenFidgets" : 10
+		},
+		"growth" : 4,
+		"hitPoints" : 30,
+        "doubleWide" : true,
+		"level" : 4,
+		"name" : { "plural" : "Pegasus", "singular" : "Pegasu" },
+		"sound" : {
+			"attack": "UNICATTK.wav",
+			"defend": "UNICDFND.wav",
+			"killed": "UNICKILL.wav",
+			"move": "UNICMOVE.wav",
+			"wince": "UNICWNCE.wav"
+		},
+		"speed" : 7,
+		"upgrades" : [ "ftlv4up" ]
+	}
+}

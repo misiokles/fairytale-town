@@ -1,0 +1,22 @@
+{
+  "ftStoneAegis" :
+  {
+    "type" : ["HERO"],
+    "class" : "SPECIAL",
+    "value" : 2500,
+    "slot" : "MACH3",
+    "warMachine" : "ftStoneAegis",
+    "text" :
+    {
+      "name" : "Stone Aegis",
+      "description" : "{Stone Aegis}\n\nThe Stone Aegis provides healing to your troops during each round of combat.",
+      "event" : "The Stone Aegis provides healing to your troops during each round of combat."
+    },
+    "graphics" :
+    {
+      "image" : "fairytale/iconsSmall/creatures/artifacts/spinner.bmp",
+      "map" : "fairytale/map/artifacts/avcnbksm.def",
+      "scenarioBonus" : "fairytale/iconsSmall/creatures/artifacts/spinner.bmp"
+    }
+  }
+}

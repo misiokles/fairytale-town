@@ -1,0 +1,78 @@
+{
+	"ftlv6":
+	{
+		"name" :
+		{
+			"plural" : "Serpent Dragons",
+			"singular" : "Serpent Dragon"
+		},
+		"advMapAmount" :
+		{
+			"max" : 10,
+			"min" : 5
+		},
+		"faction" : "fairytale",
+		"aiValue" : 552,
+		"doubleWide" : true,
+		"attack" : 15,
+		"cost" :
+		{
+			"gold" : 900
+		},
+		"damage" :
+		{
+			"max" : 20,
+			"min" : 14
+		},
+		"defense" : 13,
+		"fightValue" : 506,
+		"graphics" :
+		{
+			"animation" : "fairytale/battle/creatures/lv6.def",
+			"map" : "fairytale/map/creatures/lv6.def",
+			"iconSmall" : "fairytale/iconsSmall/creatures/lv6.bmp",
+			"iconLarge" : "fairytale/iconsBig/creatures/lv6.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"growth" : 4,
+		"hitPoints" : 80,
+		"level" : 6,
+		"upgrades":
+		[
+			"ftlv6up"
+		],
+		"sound" :
+		{
+			"attack": "WYVNATTK.wav",
+			"defend": "WYVNDFND.wav",
+			"killed": "WYVNKILL.wav",
+			"move": "WYVNMOVE.wav",
+			"wince": "WYVNWNCE.wav"
+ 		},
+		"speed" : 8,
+		"abilities" :
+		{
+			"canFly" : 
+			{
+				"type" : "FLYING"
+			},
+			"dragon" :
+			{
+				"type" : "DRAGON_NATURE"
+			},
+		    "petrification" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.stoneGaze",
+				"val" : 25,
+				"addInfo" : [0,2]
+			}
+		}
+	}
+}

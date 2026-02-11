@@ -1,0 +1,16 @@
+{
+	"core:hillFort" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"blodLanHilFor" : {
+						"animation" : "bloomingLands/objects/hillfort/blodLanHilFor",
+						"visitableFrom" : ["---", "-+-", "+++"],
+						"mask" : ["VVV", "VBB", "VBA"],
+						"allowedTerrains" : ["bloomingLands"]
+					}
+				}
+			}
+		}
+	}
+}

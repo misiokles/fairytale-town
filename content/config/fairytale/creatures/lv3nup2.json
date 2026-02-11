@@ -1,0 +1,80 @@
+{
+	"ftlv3nup2":
+	{
+		"name" :
+		{
+			"plural" : "Royal Gold fairytales",
+			"singular" : "Royal Gold fairytales"
+		},
+		"advMapAmount" :
+		{
+			"max" : 28,
+			"min" : 14
+		},
+		"faction" : "fairytale",
+		"special" : true,
+         "aiValue" : 350,
+		"attack" : 8,
+		"cost" :
+		{
+			"gold" : 290
+		},
+		"damage" :
+		{
+			"max" : 5,
+			"min" : 2
+		},
+		"defense" : 10,
+		"fightValue" : 385,
+		"graphics" :
+		{
+			"animation" : "fairytale/battle/creatures/lv3nup2.def",
+			"map" : "fairytale/map/creatures/lv3nup2.def",
+			"iconSmall" : "fairytale/iconsSmall/creatures/lv3nup2.bmp",
+			"iconLarge" : "fairytale/iconsBig/creatures/lv3nup2.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.25,
+				"attack" : 1,
+				"idle" : 10
+			},
+	       },
+		"growth" : 8,
+		"hitPoints" : 20,
+		"level" : 3,
+		"sound" :
+		{
+			"attack": "PIXIATTK.wav",
+			"defend" : "fairytale/pixiesat.wav",
+			"killed" : "fairytale/pixiedie.wav",
+			"move" : "fairytale/fairy_lp.wav",
+			"wince" : "fairytale/pixiehit.wav",
+		},
+		"speed" : 10,
+		"abilities":
+		{
+			"dispellHelpful" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.dispelHelpful",
+				"val" : 50
+			},
+			"canFly" : 
+			{
+				"type" : "FLYING"
+			},
+			"castWeakness" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.weakness",
+				"val" : 50
+			},
+			"additionalAttack" :
+			{
+				"type" : "ADDITIONAL_ATTACK",
+				"val" : 1
+			}
+		}
+	}
+}

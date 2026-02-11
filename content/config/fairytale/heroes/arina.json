@@ -1,0 +1,57 @@
+{
+	"ftArina" :
+	{
+		"class" : "keeper",
+		"female" : true,
+
+		"texts" :
+		{
+			"name" : "Arina",
+			"biography" : "Arina is said to be so kind and friendly that their isn't a general in the land who doesn't owe her a favor for a past kindness. As such many would allow her safe passage far easier than others in battle.",
+			"specialty" :
+			{
+				"description" : "Casts Hypnotize with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
+				"tooltip" : "{Hypnotize}\r\n\r\nCasts Hypnotize with increased effect.",
+				"name" : "Hypnotize"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "fairytale/heroes/arina/Un32Fmag.bmp",
+			"specialtyLarge" : "fairytale/heroes/arina/Un44Fmag.bmp",
+			"large" : "fairytale/heroes/arina/hpl300.bmp",
+			"small" : "fairytale/heroes/arina/hps300.bmp",
+		},
+
+		"spellbook": [ "hypnotize" ],
+		"army" :
+		[
+			{ "creature" : "ftlv1", "min" : 9, "max" : 15 },
+			{ "creature" : "ftlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "ftlv3", "min" :  3, "max" :  6 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "airMagic"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"hypnotize" : {
+					"subtype" : "spell.hypnotize",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}
+	}
+}
+

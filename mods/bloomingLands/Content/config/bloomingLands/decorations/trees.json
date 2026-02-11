@@ -1,0 +1,135 @@
+{
+	"core:trees" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"bloLanTre01" : { 
+					   "animation" : "bloomingLands/decorations/trees/bloLanTre01",  
+					   "mask" : [ "VVV","VBV"],
+					   "allowedTerrains": [ "bloomingLands" ]
+					},						
+					"bloLanTre02" : { 
+					   "animation" : "bloomingLands/decorations/trees/bloLanTre02", 					 
+					   "mask" : [ "VVV","VBV"],
+					   "allowedTerrains": [ "bloomingLands" ]
+					},	
+					"bloLanTre03" : { 
+					   "animation" : "bloomingLands/decorations/trees/bloLanTre03", 					 
+					   "mask" : [ "VVV","VBV"],
+					   "allowedTerrains": [ "bloomingLands" ]
+					},
+					"bloLanTre04" : { 
+					   "animation" : "bloomingLands/decorations/trees/bloLanTre04", 
+					    "mask" : [ "VVV","VBV"],
+					 "allowedTerrains": [ "bloomingLands" ]
+					},
+					"bloLanTre05" : {
+					  "animation" : "bloomingLands/decorations/trees/bloLanTre05", 
+					   "mask" : [ "VV","VB"],
+					  "allowedTerrains": [ "bloomingLands" ]
+					},					
+					"bloLanTre06" : { 
+					   "animation" : "bloomingLands/decorations/trees/bloLanTre06",  
+					   "mask" : [ "VVV","VBV"],
+					   "allowedTerrains": [ "bloomingLands" ]
+					},
+					"bloLanTre07" : { 
+					    "animation" : "bloomingLands/decorations/trees/bloLanTre07",  
+					    "mask" : [ "VVV","VBV"],
+					    "allowedTerrains": [ "bloomingLands" ]
+					},
+					"bloLanTre08" : { 
+					   "animation" : "bloomingLands/decorations/trees/bloLanTre08",  
+					    "mask" : [ "VVV","VBV"],
+					   "allowedTerrains": [ "bloomingLands" ]
+					},
+					"bloLanTre09" : { 
+					   "animation" : "bloomingLands/decorations/trees/bloLanTre09",  
+					   "mask" : [ "VVV","VBV"],
+					   "allowedTerrains": [ "bloomingLands" ]
+					},
+					"bloLanTre10" : { 
+					  "animation" : "bloomingLands/decorations/trees/bloLanTre10",  
+					   "mask" : [ "VVV","VBV"],
+					  "allowedTerrains": [ "bloomingLands" ]
+					},
+					"bloLanTre11" : { 
+					  "animation" : "bloomingLands/decorations/trees/bloLanTre11",  
+					   "mask" : [ "VVV","VBV"],
+					  "allowedTerrains": [ "bloomingLands" ]
+					},
+					"bloLanTre12" : {  
+					  "animation" : "bloomingLands/decorations/trees/bloLanTre12",  
+					   "mask" : [ "VV","VB"],
+					  "allowedTerrains": [ "bloomingLands" ]
+					},
+					"bloLanTre13" : { 
+					  "animation" : "bloomingLands/decorations/trees/bloLanTre13",  
+					  "mask" : [ "VVV","VBV"],
+					  "allowedTerrains": [ "bloomingLands" ]
+					},
+					"bloLanTre14" : { 
+					  "animation" : "bloomingLands/decorations/trees/bloLanTre14",  
+					  "mask" : [ "VVV","VBV"],
+					  "allowedTerrains": [ "bloomingLands" ]
+					},
+					"bloLanTre15" : { 
+					  "animation" : "bloomingLands/decorations/trees/bloLanTre15",  
+					  "mask" : [ "VVV","VBV"],
+					  "allowedTerrains": [ "bloomingLands" ]
+					},
+					"bloLanTre16" : { 
+					  "animation" : "bloomingLands/decorations/trees/bloLanTre16",  
+					  "mask" : [ "VVV","VBV"],
+					  "allowedTerrains": [ "bloomingLands" ]
+					},
+					"bloLanTre17" : { 
+					  "animation" : "bloomingLands/decorations/trees/bloLanTre17",  
+					  "mask" : [ "VVV","VBV"],
+					  "allowedTerrains": [ "bloomingLands" ]
+					},
+					"bloLanTre18" : { 
+					  "animation" : "bloomingLands/decorations/trees/bloLanTre18",  
+					  "mask" : [ "VVV","VBV"],
+					  "allowedTerrains": [ "bloomingLands" ]
+					},
+					"bloLanTre19" : { 
+					  "animation" : "bloomingLands/decorations/trees/bloLanTre19",  
+					  "mask" : [ "VVV","VBV"],
+					  "allowedTerrains": [ "bloomingLands" ]
+					},
+					"bloLanTre20" : { 
+					  "animation" : "bloomingLands/decorations/trees/bloLanTre20",  
+					  "mask" : [ "VVVV","VVBB","VBBV"],
+					  "allowedTerrains": [ "bloomingLands" ]
+					},
+					"bloLanTre21" : { 
+					  "animation" : "bloomingLands/decorations/trees/bloLanTre21",  
+					  "mask" : [ "VVBV","VVBB","VBBV"],
+					  "allowedTerrains": [ "bloomingLands" ]
+					},
+					"bloLanTre22" : { 
+					  "animation" : "bloomingLands/decorations/trees/bloLanTre22",  
+					  "mask" : [ "VBBV","VBBV","VVBB"],
+					  "allowedTerrains": [ "bloomingLands" ]
+					},
+					"bloLanTre23" : { 
+					  "animation" : "bloomingLands/decorations/trees/bloLanTre23",  
+					  "mask" : [ "VVBV","VBBV","VVBB"],
+					  "allowedTerrains": [ "bloomingLands" ]
+					},
+					"bloLanTre24" : { 
+					  "animation" : "bloomingLands/decorations/trees/bloLanTre24",  
+					  "mask" : [ "VBBV","VBBB","VBBB","VVBB"],
+					  "allowedTerrains": [ "bloomingLands" ]
+					},
+					"bloLanTre25" : { 
+					  "animation" : "bloomingLands/decorations/trees/bloLanTre25",  
+					  "mask" : [ "VVBB","VBBB","VBBB","VBBV"],
+					  "allowedTerrains": [ "bloomingLands" ]
+					}
+				}
+			}
+		}
+	}
+}

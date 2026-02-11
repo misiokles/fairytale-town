@@ -1,0 +1,15 @@
+{
+	"core:hole" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"bloomingLandsHole" : {
+						"animation" : "bloomingLands/decorations/hole/bloomingLandsHole",
+						"mask" : [ "V" ],
+						"allowedTerrains": [ "bloomingLands" ]
+					}
+				}
+			}
+		}
+	}
+}

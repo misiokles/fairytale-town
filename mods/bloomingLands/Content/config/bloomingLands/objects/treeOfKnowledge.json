@@ -1,0 +1,16 @@
+{
+	"core:treeOfKnowledge" : {
+		"types" : {
+			"treeOfKnowledge" : {
+				"templates" : {
+					"bloomingLands_treeOfKnowledge" : {
+						"animation" : "bloomingLands/objects/treeOfKnowledge/redTree",
+						"visitableFrom" : ["---", "-+-", "+++"],
+						"mask" : ["VVV", "VVV", "VAB"],
+						"allowedTerrains" : ["bloomingLands"]
+					}
+				}
+			}
+		}
+	}
+}

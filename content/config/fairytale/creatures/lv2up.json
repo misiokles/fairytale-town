@@ -1,0 +1,73 @@
+{
+	"ftlv2up":
+	{
+		"name" :
+		{
+			"plural" : "Rainbow Dragons",
+			"singular" : "Rainbow Dragon"
+		},
+		"advMapAmount" :
+		{
+			"max" : 18,
+			"min" : 10
+		},
+		"faction" : "fairytale",
+		"aiValue" : 200,
+		"attack" : 7,
+		"cost" :
+		{
+			"gold" : 160
+		},
+		"damage" :
+		{
+			"max" : 4,
+			"min" : 2
+		},
+		"defense" : 7,
+		"fightValue" : 210,
+		"graphics" :
+		{
+			"animation" : "fairytale/battle/creatures/lv2up.def",
+			"map" : "fairytale/map/creatures/lv2up.def",
+			"iconSmall" : "fairytale/iconsSmall/creatures/lv2up.bmp",
+			"iconLarge" : "fairytale/iconsBig/creatures/lv2up.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.25,
+				"attack" : 1,
+				"idle" : 10
+			}
+        },
+		"growth" : 9,
+		"hitPoints" : 16,
+		"level" : 2,
+		"sound" :
+		{
+			"attack": "FAERATTK.wav",
+			"defend": "FAERDFND.wav",
+			"killed": "FAERKILL.wav",
+			"move": "FAERMOVE.wav",
+			"shoot": "FAERSHOT.wav",
+			"wince": "FAERWNCE.wav"
+		},
+		"speed" : 9,
+		"abilities":
+		{
+			"canFly" : 
+			{
+				"type" : "FLYING"
+			},
+			"dragon" :
+			{
+				"type" : "DRAGON_NATURE"
+			},
+			"suck" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.forgetfulness",
+				"val" : 25
+			}	
+		}	
+	}
+}

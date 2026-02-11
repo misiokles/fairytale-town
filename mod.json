@@ -1,0 +1,69 @@
+{
+	"name" : "Fairytale city",
+	"description" : "New town made by New fairytale Team",	
+	"author" : "New fairytale Team, mod : Kuririn, zeryss, Draeganfire, avatar",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "1.2",
+	"modType" : "Town",	
+    "factions" : [ "config/fairytale/town" ],
+	
+	"creatures" :
+	[
+		"config/fairytale/creatures/lv1.json",
+		"config/fairytale/creatures/lv1up.json",
+		"config/fairytale/creatures/lv2.json",
+		"config/fairytale/creatures/lv2up.json",
+		"config/fairytale/creatures/lv3.json",
+		"config/fairytale/creatures/lv3up.json",
+        "config/fairytale/creatures/lv3n.json",
+		"config/fairytale/creatures/lv3nup.json",
+        "config/fairytale/creatures/lv3nup2.json",
+        "config/fairytale/creatures/lv4.json",
+		"config/fairytale/creatures/lv4up.json",
+		"config/fairytale/creatures/lv5.json",
+        "config/fairytale/creatures/lv5up.json",
+		"config/fairytale/creatures/lv6.json",
+		"config/fairytale/creatures/lv6up.json",
+		"config/fairytale/creatures/lv7.json",
+		"config/fairytale/creatures/lv7up.json",
+		"config/fairytale/creatures/StoneAegis.json",	
+		"config/fairytale/creatures/commander.json"
+	
+	],
+    "artifacts":
+        [              
+               "config/fairytale/artifacts/StoneAegisArt.json"        
+        ],
+	
+	"heroClasses" :
+	[
+		"config/fairytale/classes/diviner.json",
+		"config/fairytale/classes/keeper.json"
+	],
+
+	"heroes" :
+	[
+		"config/fairytale/heroes/abrisa.json",
+		"config/fairytale/heroes/arina.json",
+		"config/fairytale/heroes/elrisa.json",
+		"config/fairytale/heroes/kylina.json",
+		"config/fairytale/heroes/losina.json",
+		"config/fairytale/heroes/meri.json",
+		"config/fairytale/heroes/mia.json",
+		"config/fairytale/heroes/ola.json",
+		"config/fairytale/heroes/sarisa.json",
+		"config/fairytale/heroes/seliva.json",
+		"config/fairytale/heroes/sheli.json",
+		"config/fairytale/heroes/sinara.json",
+		"config/fairytale/heroes/siniri.json",
+		"config/fairytale/heroes/uliri.json",
+		"config/fairytale/heroes/aarela.json",
+		"config/fairytale/heroes/zerela.json",
+		"config/fairytale/heroes/zeria.json"
+	],
+    "objects" :
+    [  
+    "config/fairytale/dwellings.json"
+
+    ]
+}

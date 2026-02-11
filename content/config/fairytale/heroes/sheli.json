@@ -1,0 +1,42 @@
+{
+	"ftSheli" :
+	{
+		"class" : "diviner",
+		"female" : true,
+
+		"texts" :
+		{
+			"name" : "Sheli",
+			"biography" : "Sheli is the most enchanting fairytale of the realm, and the most powerful sorceress. Her fellow Sorceresses and Enchantresses are said to be able to hear her commands as if they were their own thoughts, making them far more deadly in combat.",
+			"specialty" :
+			{
+				"description" : "Increases the Attack and Defense skills of Sorceress and Supreme Sorceress or each level attained after 2nd level.",
+				"tooltip" : "{Sorceress}\r\n\r\nIncreases the Attack and Defense skills of Sorceress and Supreme Sorceress.",
+				"name" : "Sorceress"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "fairytale/heroes/sheli/un32hunt.bmp",
+			"specialtyLarge" : "fairytale/heroes/sheli/un44hunt.bmp",
+			"large" : "fairytale/heroes/sheli/hpl286.bmp",
+			"small" : "fairytale/heroes/sheli/hps286.bmp"
+		},
+       "army" :
+		[
+			{ "creature" : "ftlv1", "min" : 9, "max" : 15 },
+			{ "creature" : "ftlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "ftlv3", "min" :  3, "max" :  6 }
+		],
+		"spellbook": [ "shield" ],
+		"skills":
+		[
+			{ "skill" : "armorer", "level": "basic" },
+			{ "skill" : "pathfinding", "level": "basic" }
+		],
+		"specialty" : {
+			"creature" : "ftlv5"
+		}		
+	}
+}
